@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from "next/server"
 import {
   classifyDisconnect,
   validateNetworkSnapshot,
+  validateCompetitiveAdvantage,
+  validateFairnessConfidence,
   type DisconnectSignals,
   type ClassificationResult,
 } from "@/lib/preservation-core"
@@ -23,7 +25,9 @@ export const runtime = "nodejs"
  *     timestamp?: number
  *   },
  *   timeSinceLastPacket?: number,           // Optional: milliseconds since last packet
- *   timeoutThreshold?: number               // Optional: timeout threshold in ms (default: 5000)
+ *   timeoutThreshold?: number,              // Optional: timeout threshold in ms (default: 5000)
+ *   competitiveAdvantage?: number,          // Optional: -1.0 to 1.0 (game-agnostic advantage signal)
+ *   fairnessConfidence?: number             // Optional: 0.0 to 1.0 (match outcome certainty)
  * }
  * 
  * Response:
@@ -62,12 +66,36 @@ export async function POST(req: NextRequest) {
       }
     }
 
+    // Validate competitive advantage if provided
+    if (body.competitiveAdvantage !== undefined) {
+      const validation = validateCompetitiveAdvantage(body.competitiveAdvantage)
+      if (!validation.valid) {
+        return NextResponse.json(
+          { error: validation.error },
+          { status: 400 }
+        )
+      }
+    }
+
+    // Validate fairness confidence if provided
+    if (body.fairnessConfidence !== undefined) {
+      const validation = validateFairnessConfidence(body.fairnessConfidence)
+      if (!validation.valid) {
+        return NextResponse.json(
+          { error: validation.error },
+          { status: 400 }
+        )
+      }
+    }
+
     // Build signals object
     const signals: DisconnectSignals = {
       quitAction: body.quitAction,
       networkBeforeDisconnect: body.networkBeforeDisconnect,
       timeSinceLastPacket: body.timeSinceLastPacket,
       timeoutThreshold: body.timeoutThreshold,
+      competitiveAdvantage: body.competitiveAdvantage,
+      fairnessConfidence: body.fairnessConfidence,
     }
 
     // Classify disconnect
@@ -122,6 +150,16 @@ export async function GET() {
         required: false,
         description: "Timeout threshold in milliseconds (default: 5000)",
       },
+      competitiveAdvantage: {
+        type: "number",
+        required: false,
+        description: "Game-agnostic competitive advantage signal (-1.0 to 1.0). -1.0 = losing, 0.0 = neutral, 1.0 = winning. Studio-defined based on game metrics (points, kills, rounds, health, etc.).",
+      },
+      fairnessConfidence: {
+        type: "number",
+        required: false,
+        description: "Game-agnostic fairness confidence signal (0.0 to 1.0). 0.0 = match outcome highly uncertain, 1.0 = match outcome likely settled. Studio-defined based on match state.",
+      },
     },
     response: {
       type: {
@@ -141,6 +179,8 @@ export async function GET() {
           highPacketLoss: { type: "boolean" },
           highLatency: { type: "boolean" },
           hardDisconnect: { type: "boolean" },
+          competitiveAdvantageUsed: { type: "boolean" },
+          fairnessConfidenceUsed: { type: "boolean" },
         },
       },
     },
@@ -153,6 +193,8 @@ export async function GET() {
           isConnected: false,
         },
         timeSinceLastPacket: 6000,
+        competitiveAdvantage: 0.7, // Player was winning
+        fairnessConfidence: 0.6, // Match somewhat uncertain
       },
       response: {
         type: "unintentional_disconnect",
