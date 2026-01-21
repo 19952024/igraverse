@@ -265,7 +265,88 @@ export default function PreservationCorePage({ active }: PreservationCorePagePro
           <div className="title" style={{ fontSize: "26px" }}>
             Igraverse – Preservation Core Test Harness
           </div>
-          <p className="lead">
+          
+          {/* PROMINENT: No Download - Cloud API */}
+          <div
+            style={{
+              marginTop: "16px",
+              padding: "16px",
+              borderRadius: "10px",
+              background: "linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(147, 51, 234, 0.15) 100%)",
+              border: "2px solid rgba(59, 130, 246, 0.4)",
+              fontSize: "15px",
+              fontWeight: 500,
+            }}
+          >
+            <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "8px" }}>
+              <span style={{ fontSize: "24px" }}>☁️</span>
+              <div>
+                <strong style={{ fontSize: "16px", color: "rgb(59, 130, 246)" }}>
+                  No Download Required – Cloud-Based API Service
+                </strong>
+              </div>
+            </div>
+            <div style={{ fontSize: "14px", lineHeight: "1.6", marginTop: "8px" }}>
+              <strong>Preservation Core is a cloud-based API.</strong> Game studios like EA Sports don't download or install anything. 
+              Instead, your game servers make simple HTTP POST requests to our API endpoint when a player disconnects. 
+              <strong style={{ color: "rgb(34, 197, 94)" }}> No SDK, no libraries, no installation – just API calls.</strong>
+            </div>
+          </div>
+
+          {/* How Game Studios Integrate Section */}
+          <div
+            style={{
+              marginTop: "16px",
+              padding: "16px",
+              borderRadius: "10px",
+              background: "rgba(15, 23, 42, 0.6)",
+              border: "1px solid rgba(148, 163, 184, 0.3)",
+            }}
+          >
+            <div className="title" style={{ fontSize: "18px", marginBottom: "12px" }}>
+              How Game Studios Integrate (Example: EA Sports)
+            </div>
+            <div style={{ fontSize: "14px", lineHeight: "1.7" }}>
+              <p style={{ marginBottom: "12px" }}>
+                <strong>Real-world integration flow:</strong>
+              </p>
+              <ol style={{ paddingLeft: "20px", marginBottom: "12px" }}>
+                <li style={{ marginBottom: "8px" }}>
+                  <strong>Player disconnects</strong> during an online match (e.g., FIFA, Madden)
+                </li>
+                <li style={{ marginBottom: "8px" }}>
+                  <strong>EA's game server detects the disconnect</strong> (using their existing networking code)
+                </li>
+                <li style={{ marginBottom: "8px" }}>
+                  <strong>EA's server captures network data:</strong> latency, packet loss, connection status, quit action
+                </li>
+                <li style={{ marginBottom: "8px" }}>
+                  <strong>EA's server makes API call:</strong> <code style={{ background: "rgba(0,0,0,0.3)", padding: "2px 6px", borderRadius: "4px" }}>POST https://api.igraverse.com/api/preservation-core/classify</code>
+                </li>
+                <li style={{ marginBottom: "8px" }}>
+                  <strong>Preservation Core responds:</strong> <code style={{ background: "rgba(0,0,0,0.3)", padding: "2px 6px", borderRadius: "4px" }}>{"{ \"lossApplied\": false }"}</code>
+                </li>
+                <li>
+                  <strong>EA's server applies the decision:</strong> If <code>lossApplied: false</code>, the match is preserved (no loss recorded). If <code>lossApplied: true</code>, a loss is applied.
+                </li>
+              </ol>
+              <div
+                style={{
+                  marginTop: "12px",
+                  padding: "12px",
+                  borderRadius: "8px",
+                  background: "rgba(34, 197, 94, 0.1)",
+                  border: "1px solid rgba(34, 197, 94, 0.3)",
+                  fontSize: "13px",
+                }}
+              >
+                <strong>Integration time:</strong> ~30-60 minutes. Add the API call to your existing disconnect handler. 
+                Works with Unity, Unreal, custom engines, or any platform that can make HTTP requests.
+              </div>
+            </div>
+          </div>
+
+          <p className="lead" style={{ marginTop: "16px" }}>
             <strong>Goal:</strong> Eliminate unfair online losses when players disconnect due to internet issues instead of quitting.
             <br />
             <strong>How:</strong> Add a small API call in your disconnect handler that sends basic connection data and applies the yes/no decision it returns.
@@ -273,20 +354,6 @@ export default function PreservationCorePage({ active }: PreservationCorePagePro
           <p className="lead" style={{ marginTop: "8px", fontSize: "14px" }}>
             This test harness validates disconnect detection, classification, and loss application logic before integrating Preservation Core into live titles.
           </p>
-          <div
-            style={{
-              marginTop: "8px",
-              padding: "10px",
-              borderRadius: "6px",
-              background: "rgba(34, 197, 94, 0.1)",
-              border: "1px solid rgba(34, 197, 94, 0.3)",
-              fontSize: "12px",
-            }}
-          >
-            <strong>Note:</strong> This demo uses the <strong>exact same logic</strong> as the real API endpoint. The
-            `classifyDisconnect()` function used here is identical to what the API calls. Results in this demo match what
-            you'll get from <code>POST /api/preservation-core/classify</code>.
-          </div>
           <div
             style={{
               marginTop: "12px",
@@ -297,7 +364,7 @@ export default function PreservationCorePage({ active }: PreservationCorePagePro
               fontSize: "13px",
             }}
           >
-            <strong>Developer Integration:</strong> Preservation Core is a cloud-based API (no download needed). Call{" "}
+            <strong>API Endpoint:</strong> Call{" "}
             <code style={{ background: "rgba(0,0,0,0.2)", padding: "2px 6px", borderRadius: "4px" }}>
               POST /api/preservation-core/classify
             </code>{" "}
