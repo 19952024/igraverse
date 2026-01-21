@@ -263,7 +263,294 @@ export default function PreservationCorePage({ active }: PreservationCorePagePro
       <section className="container section">
         <div className="card">
           <div className="title" style={{ fontSize: "26px" }}>
-            Igraverse – Preservation Core Test Harness
+            Igraverse – Preservation Core Platform
+          </div>
+          
+          {/* IMMEDIATE ACTION: What To Do Next */}
+          <div
+            style={{
+              marginTop: "20px",
+              padding: "24px",
+              borderRadius: "12px",
+              background: "linear-gradient(135deg, rgba(34, 197, 94, 0.15) 0%, rgba(59, 130, 246, 0.15) 100%)",
+              border: "3px solid rgba(34, 197, 94, 0.5)",
+            }}
+          >
+            <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "16px" }}>
+              <span style={{ fontSize: "32px" }}>👉</span>
+              <div>
+                <strong style={{ fontSize: "22px", color: "rgb(34, 197, 94)" }}>
+                  Start Here: How Your Studio Gets Access
+                </strong>
+              </div>
+            </div>
+            <div style={{ fontSize: "16px", lineHeight: "1.8", marginBottom: "20px" }}>
+              <p style={{ marginBottom: "20px", fontSize: "17px" }}>
+                <strong>Ready to adopt Preservation Core?</strong> Here's exactly what to do:
+              </p>
+              
+              {/* Quick Action Steps */}
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "12px", marginBottom: "20px" }}>
+                <div style={{ textAlign: "center", padding: "16px", background: "rgba(15, 23, 42, 0.6)", borderRadius: "8px", border: "2px solid rgba(59, 130, 246, 0.4)" }}>
+                  <div style={{ fontSize: "32px", marginBottom: "8px" }}>1️⃣</div>
+                  <strong style={{ fontSize: "15px", display: "block", marginBottom: "6px" }}>Request Access</strong>
+                  <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.8)" }}>Contact Igraverse</div>
+                </div>
+                <div style={{ textAlign: "center", padding: "16px", background: "rgba(15, 23, 42, 0.6)", borderRadius: "8px", border: "2px solid rgba(34, 197, 94, 0.4)" }}>
+                  <div style={{ fontSize: "32px", marginBottom: "8px" }}>2️⃣</div>
+                  <strong style={{ fontSize: "15px", display: "block", marginBottom: "6px" }}>Get Credentials</strong>
+                  <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.8)" }}>API Key + URL</div>
+                </div>
+                <div style={{ textAlign: "center", padding: "16px", background: "rgba(15, 23, 42, 0.6)", borderRadius: "8px", border: "2px solid rgba(251, 191, 36, 0.4)" }}>
+                  <div style={{ fontSize: "32px", marginBottom: "8px" }}>3️⃣</div>
+                  <strong style={{ fontSize: "15px", display: "block", marginBottom: "6px" }}>Test Here</strong>
+                  <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.8)" }}>Use sandbox below</div>
+                </div>
+                <div style={{ textAlign: "center", padding: "16px", background: "rgba(15, 23, 42, 0.6)", borderRadius: "8px", border: "2px solid rgba(34, 197, 94, 0.4)" }}>
+                  <div style={{ fontSize: "32px", marginBottom: "8px" }}>4️⃣</div>
+                  <strong style={{ fontSize: "15px", display: "block", marginBottom: "6px" }}>Go Live</strong>
+                  <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.8)" }}>Deploy to production</div>
+                </div>
+              </div>
+
+              {/* Primary CTA */}
+              <div
+                style={{
+                  padding: "18px",
+                  borderRadius: "10px",
+                  background: "rgba(34, 197, 94, 0.2)",
+                  border: "2px solid rgba(34, 197, 94, 0.5)",
+                  textAlign: "center",
+                }}
+              >
+                <div style={{ fontSize: "18px", fontWeight: "bold", marginBottom: "12px" }}>
+                  🚀 Ready to Get Started?
+                </div>
+                <div style={{ fontSize: "15px", marginBottom: "16px" }}>
+                  Contact your Igraverse representative or email us to request access and receive your API credentials.
+                </div>
+                <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
+                  <div style={{ padding: "12px 24px", background: "rgb(34, 197, 94)", borderRadius: "8px", fontWeight: "bold", fontSize: "16px", cursor: "pointer", border: "2px solid rgba(255,255,255,0.2)" }}>
+                    📧 Email: support@igraverse.com
+                  </div>
+                  <div style={{ padding: "12px 24px", background: "rgba(59, 130, 246, 0.3)", borderRadius: "8px", fontWeight: "bold", fontSize: "16px", border: "2px solid rgba(59, 130, 246, 0.5)" }}>
+                    💬 Contact Account Manager
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* DETAILED ONBOARDING STEPS - Expanded Details */}
+          <div
+            style={{
+              marginTop: "20px",
+              padding: "20px",
+              borderRadius: "12px",
+              background: "linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(147, 51, 234, 0.15) 100%)",
+              border: "2px solid rgba(59, 130, 246, 0.4)",
+            }}
+          >
+            <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "16px" }}>
+              <span style={{ fontSize: "24px" }}>📋</span>
+              <div>
+                <strong style={{ fontSize: "18px", color: "rgb(59, 130, 246)" }}>
+                  Detailed Onboarding Steps
+                </strong>
+              </div>
+            </div>
+            <div style={{ fontSize: "15px", lineHeight: "1.8" }}>
+              <p style={{ marginBottom: "16px" }}>
+                <strong>Complete onboarding process:</strong> Here's what happens after you request access.
+              </p>
+              
+              <div style={{ display: "grid", gap: "12px", marginBottom: "16px" }}>
+                {/* Step 1: Request Access */}
+                <div
+                  style={{
+                    padding: "14px",
+                    borderRadius: "8px",
+                    background: "rgba(15, 23, 42, 0.7)",
+                    border: "1px solid rgba(148, 163, 184, 0.4)",
+                  }}
+                >
+                  <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "8px" }}>
+                    <span style={{ fontSize: "20px", fontWeight: "bold", color: "rgb(59, 130, 246)" }}>1</span>
+                    <strong style={{ fontSize: "16px" }}>Request Access & Obtain Credentials</strong>
+                  </div>
+                  <div style={{ fontSize: "14px", paddingLeft: "30px", lineHeight: "1.6" }}>
+                    <p style={{ marginBottom: "8px" }}>
+                      Contact your Igraverse representative to request access to Preservation Core. You'll receive:
+                    </p>
+                    <ul style={{ paddingLeft: "20px", marginBottom: "8px" }}>
+                      <li><strong>API Base URL:</strong> Your dedicated endpoint (e.g., <code style={{ background: "rgba(0,0,0,0.3)", padding: "2px 6px", borderRadius: "4px" }}>https://api.igraverse.com</code>)</li>
+                      <li><strong>API Key:</strong> Authentication credential for your studio</li>
+                      <li><strong>Sandbox Access:</strong> Test environment credentials</li>
+                      <li><strong>Production Credentials:</strong> Provided after sandbox validation</li>
+                    </ul>
+                    <div
+                      style={{
+                        marginTop: "8px",
+                        padding: "10px",
+                        borderRadius: "6px",
+                        background: "rgba(59, 130, 246, 0.1)",
+                        border: "1px solid rgba(59, 130, 246, 0.3)",
+                        fontSize: "13px",
+                      }}
+                    >
+                      <strong>What you'll receive:</strong> API Base URL, API Key (sandbox + production), integration documentation, and support contact.
+                    </div>
+                  </div>
+                </div>
+
+                {/* Step 2: Test in Sandbox */}
+                <div
+                  style={{
+                    padding: "14px",
+                    borderRadius: "8px",
+                    background: "rgba(15, 23, 42, 0.7)",
+                    border: "1px solid rgba(148, 163, 184, 0.4)",
+                  }}
+                >
+                  <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "8px" }}>
+                    <span style={{ fontSize: "20px", fontWeight: "bold", color: "rgb(34, 197, 94)" }}>2</span>
+                    <strong style={{ fontSize: "16px" }}>Test in Sandbox Environment</strong>
+                  </div>
+                  <div style={{ fontSize: "14px", paddingLeft: "30px", lineHeight: "1.6" }}>
+                    <p style={{ marginBottom: "8px" }}>
+                      <strong>You're currently viewing the sandbox test harness.</strong> Use this interactive demo to:
+                    </p>
+                    <ul style={{ paddingLeft: "20px", marginBottom: "8px" }}>
+                      <li>Validate disconnect classification logic with real scenarios</li>
+                      <li>Test intentional quits, network drops, and normal match completion</li>
+                      <li>Verify API responses match your game's requirements</li>
+                      <li>Review signal breakdowns to understand decision logic</li>
+                    </ul>
+                    <div
+                      style={{
+                        marginTop: "8px",
+                        padding: "10px",
+                        borderRadius: "6px",
+                        background: "rgba(34, 197, 94, 0.1)",
+                        border: "1px solid rgba(34, 197, 94, 0.3)",
+                        fontSize: "13px",
+                      }}
+                    >
+                      <strong>🔧 Sandbox API:</strong> Use your sandbox credentials to make test API calls to <code style={{ background: "rgba(0,0,0,0.2)", padding: "2px 6px", borderRadius: "4px" }}>POST https://sandbox.igraverse.com/api/preservation-core/classify</code> with your sandbox API key in the Authorization header.
+                    </div>
+                  </div>
+                </div>
+
+                {/* Step 3: Integrate into Your Game */}
+                <div
+                  style={{
+                    padding: "14px",
+                    borderRadius: "8px",
+                    background: "rgba(15, 23, 42, 0.7)",
+                    border: "1px solid rgba(148, 163, 184, 0.4)",
+                  }}
+                >
+                  <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "8px" }}>
+                    <span style={{ fontSize: "20px", fontWeight: "bold", color: "rgb(251, 191, 36)" }}>3</span>
+                    <strong style={{ fontSize: "16px" }}>Integrate into Your Game (30-60 minutes)</strong>
+                  </div>
+                  <div style={{ fontSize: "14px", paddingLeft: "30px", lineHeight: "1.6" }}>
+                    <p style={{ marginBottom: "8px" }}>
+                      Add the API call to your existing disconnect handler:
+                    </p>
+                    <ol style={{ paddingLeft: "20px", marginBottom: "8px" }}>
+                      <li>Capture network state (latency, packet loss, connection status)</li>
+                      <li>Detect explicit quit actions (Alt+F4, quit button, etc.)</li>
+                      <li>Make API call with your sandbox credentials</li>
+                      <li>Apply the <code style={{ background: "rgba(0,0,0,0.2)", padding: "2px 6px", borderRadius: "4px" }}>lossApplied</code> decision from the response</li>
+                    </ol>
+                    <div
+                      style={{
+                        marginTop: "8px",
+                        padding: "10px",
+                        borderRadius: "6px",
+                        background: "rgba(251, 191, 36, 0.1)",
+                        border: "1px solid rgba(251, 191, 36, 0.3)",
+                        fontSize: "13px",
+                      }}
+                    >
+                      <strong>📚 Integration Guide:</strong> See the <a href="/docs/preservation-core-day1-integration.md" target="_blank" style={{ color: "rgb(251, 191, 36)", textDecoration: "underline" }}>Day-1 Integration Guide</a> for copy-paste ready code examples.
+                    </div>
+                  </div>
+                </div>
+
+                {/* Step 4: Move to Production */}
+                <div
+                  style={{
+                    padding: "14px",
+                    borderRadius: "8px",
+                    background: "rgba(15, 23, 42, 0.7)",
+                    border: "1px solid rgba(148, 163, 184, 0.4)",
+                  }}
+                >
+                  <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "8px" }}>
+                    <span style={{ fontSize: "20px", fontWeight: "bold", color: "rgb(34, 197, 94)" }}>4</span>
+                    <strong style={{ fontSize: "16px" }}>Deploy to Production</strong>
+                  </div>
+                  <div style={{ fontSize: "14px", paddingLeft: "30px", lineHeight: "1.6" }}>
+                    <p style={{ marginBottom: "8px" }}>
+                      Once sandbox testing is complete:
+                    </p>
+                    <ul style={{ paddingLeft: "20px", marginBottom: "8px" }}>
+                      <li>Request production credentials from your Igraverse representative</li>
+                      <li>Update your API endpoint to the production URL</li>
+                      <li>Replace sandbox API key with production key</li>
+                      <li>Deploy to your game servers</li>
+                    </ul>
+                    <div
+                      style={{
+                        marginTop: "8px",
+                        padding: "10px",
+                        borderRadius: "6px",
+                        background: "rgba(34, 197, 94, 0.1)",
+                        border: "1px solid rgba(34, 197, 94, 0.3)",
+                        fontSize: "13px",
+                      }}
+                    >
+                      <strong>✅ Production Ready:</strong> The API logic you tested in sandbox is identical to production. No code changes needed - just update credentials and endpoint URL.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Environment Comparison */}
+              <div
+                style={{
+                  marginTop: "16px",
+                  padding: "14px",
+                  borderRadius: "8px",
+                  background: "rgba(15, 23, 42, 0.8)",
+                  border: "1px dashed rgba(148, 163, 184, 0.5)",
+                }}
+              >
+                <strong style={{ fontSize: "15px", marginBottom: "10px", display: "block" }}>Sandbox vs Production:</strong>
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px", fontSize: "13px" }}>
+                  <div>
+                    <strong style={{ color: "rgb(34, 197, 94)" }}>Sandbox Environment</strong>
+                    <ul style={{ paddingLeft: "20px", marginTop: "6px" }}>
+                      <li>For testing and validation</li>
+                      <li>Same API logic as production</li>
+                      <li>No rate limits for testing</li>
+                      <li>Test credentials provided</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong style={{ color: "rgb(59, 130, 246)" }}>Production Environment</strong>
+                    <ul style={{ paddingLeft: "20px", marginTop: "6px" }}>
+                      <li>For live game servers</li>
+                      <li>Identical API logic</li>
+                      <li>Production-grade SLA</li>
+                      <li>Production credentials required</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           
           {/* PROMINENT: No Download - Cloud API */}
@@ -352,7 +639,7 @@ export default function PreservationCorePage({ active }: PreservationCorePagePro
             <strong>How:</strong> Add a small API call in your disconnect handler that sends basic connection data and applies the yes/no decision it returns.
           </p>
           <p className="lead" style={{ marginTop: "8px", fontSize: "14px" }}>
-            This test harness validates disconnect detection, classification, and loss application logic before integrating Preservation Core into live titles.
+            <strong>Sandbox Test Harness:</strong> This interactive demo is part of your sandbox environment. Use it to validate disconnect detection, classification, and loss application logic before integrating Preservation Core into your live game servers.
           </p>
           <div
             style={{
@@ -398,12 +685,12 @@ export default function PreservationCorePage({ active }: PreservationCorePagePro
             {/* Left: mini game state */}
             <div className="card" style={{ padding: "16px", display: "flex", flexDirection: "column", gap: "12px" }}>
               <div className="title" style={{ marginBottom: "4px", fontSize: "18px" }}>
-                1v1 Test Match (Player vs AI)
+                Sandbox Test Match (Player vs AI)
               </div>
               <div className="muted" style={{ fontSize: "13px" }}>
-                This is a simplified harness. The only purpose is to decide if a disconnect counts as a loss or is
-                preserved. The decision is enforced <strong>post-match</strong> when the match status changes to
-                "completed" or "disconnected".
+                <strong>Sandbox Testing:</strong> This interactive test harness uses the exact same API logic as production. 
+                Test different disconnect scenarios to validate how Preservation Core will classify disconnects in your game. 
+                The decision is enforced <strong>post-match</strong> when the match status changes to "completed" or "disconnected".
               </div>
               <div className="muted" style={{ fontSize: "12px", marginTop: "4px", fontStyle: "italic" }}>
                 <strong>Important:</strong> Preservation Core only decides loss vs. no loss. Your game always owns match
