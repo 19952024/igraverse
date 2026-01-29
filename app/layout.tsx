@@ -6,6 +6,11 @@ import "./globals.css"
 export const metadata = {
   title: "Igraverse - The AI Engine of the Gaming World",
   description: "Building the future of gaming through artificial intelligence",
+  icons: {
+    icon: "/logo.jpg",
+    shortcut: "/logo.jpg",
+    apple: "/logo.jpg",
+  },
 }
 
 export default function RootLayout({
