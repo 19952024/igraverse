@@ -4,11 +4,26 @@ import {
   evaluateControllerIntegrity,
   type InputPressSample,
 } from "@shared/controller-integrity";
+import { useAuth } from "@/context/AuthContext";
+import { useLocation } from "wouter";
 
 export default function ControllerIntegrityPage() {
+  const { user } = useAuth();
+  const [, setLocation] = useLocation();
+
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "instant" as ScrollBehavior });
   }, []);
+
+  useEffect(() => {
+    if (!user) {
+      setLocation("/signin");
+    }
+  }, [user, setLocation]);
+
+  if (!user) {
+    return null;
+  }
 
   return (
     <main id="controller-integrity" className="view active">

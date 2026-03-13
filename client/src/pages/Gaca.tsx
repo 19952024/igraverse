@@ -10,20 +10,34 @@ import iconSdk from "@/assets/images/icon-sdk.png";
 import iconNodes from "@/assets/images/icon-nodes.png";
 import iconDeploy from "@/assets/images/icon-deploy.png";
 import { useLocation } from "wouter";
+import { useAuth } from "@/context/AuthContext";
 
 export default function Gaca() {
   const [, setLocation] = useLocation();
+  const { user } = useAuth();
 
   const handlePreservationClick = () => {
-    setLocation("/gaca/preservation-core");
+    if (!user) {
+      setLocation("/signin");
+    } else {
+      setLocation("/gaca/preservation-core");
+    }
   };
 
   const handleLagSentinelClick = () => {
-    setLocation("/gaca/lag-sentinel");
+    if (!user) {
+      setLocation("/signin");
+    } else {
+      setLocation("/gaca/lag-sentinel");
+    }
   };
 
   const handleControllerIntegrityClick = () => {
-    setLocation("/gaca/controller-integrity");
+    if (!user) {
+      setLocation("/signin");
+    } else {
+      setLocation("/gaca/controller-integrity");
+    }
   };
 
   const makeCardKeyHandler =

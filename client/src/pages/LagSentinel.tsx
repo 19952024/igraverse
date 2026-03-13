@@ -4,11 +4,26 @@ import {
   decideMercyDisconnect,
   type PingSample,
 } from "@shared/lag-sentinel";
+import { useAuth } from "@/context/AuthContext";
+import { useLocation } from "wouter";
 
 export default function LagSentinelPage() {
+  const { user } = useAuth();
+  const [, setLocation] = useLocation();
+
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "instant" as ScrollBehavior });
   }, []);
+
+  useEffect(() => {
+    if (!user) {
+      setLocation("/signin");
+    }
+  }, [user, setLocation]);
+
+  if (!user) {
+    return null;
+  }
 
   return (
     <main id="lag-sentinel" className="view active">

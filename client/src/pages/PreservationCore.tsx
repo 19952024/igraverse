@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { useLocation } from "wouter";
+import { useAuth } from "@/context/AuthContext";
 import {
   classifyDisconnect,
   type DisconnectType,
@@ -23,6 +25,24 @@ interface MatchReport {
 const MATCH_DURATION_SECONDS = 40;
 
 export default function PreservationCorePage() {
+  const { user } = useAuth();
+  const [, setLocation] = useLocation();
+
+  useEffect(() => {
+    if (!user) {
+      setLocation("/signin");
+    }
+  }, [user, setLocation]);
+
+  // Always show this feature from the top when navigated to
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" as ScrollBehavior });
+  }, []);
+
+  if (!user) {
+    return null;
+  }
+
   const [status, setStatus] = useState<MatchStatus>("idle");
   const [remaining, setRemaining] = useState<number>(MATCH_DURATION_SECONDS);
   const [playerScore, setPlayerScore] = useState(0);
@@ -56,11 +76,6 @@ export default function PreservationCorePage() {
     if (!report) return null;
     return report;
   }, [report]);
-
-  // Always show this feature from the top when navigated to
-  useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "instant" as ScrollBehavior });
-  }, []);
 
   function createMatchId() {
     const now = new Date();
