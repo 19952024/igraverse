@@ -1,4 +1,4 @@
-Upgrade the visual design of the Igraverse website while keeping the existing page structure (Home, TruePlay AI, GACA, About, Contact).
+Upgrade the visual design of the Igraverse website while keeping the existing page structure (Home, Metabuffed, GACA, About, Contact).
 
 Goal: The platform should feel like a premium AI world-creation system, not a standard SaaS website. The design should communicate scale, creativity, and futuristic technology.
 
@@ -45,7 +45,7 @@ Platform Pillars
 Keep the three core platform cards:
 
 Game Generation
-TruePlay AI
+Metabuffed
 GACA
 
 Enhance these cards visually with glow edges, futuristic icons, and subtle hover animations so they feel like modules of a larger AI system.
@@ -86,7 +86,7 @@ Display them like a live feed or activity stream.
 
 This makes the platform feel active and alive.
 
-TruePlay AI Page
+Metabuffed Page
 
 Design the page with neural network visuals such as connected nodes, flowing data lines, and subtle AI system diagrams to represent behavior modeling and player intelligence.
 

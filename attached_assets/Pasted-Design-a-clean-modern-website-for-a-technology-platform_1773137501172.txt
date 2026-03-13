@@ -8,7 +8,7 @@ Do not add extra sections or pages beyond what is listed below.
 Site Structure (Pages)
 
 1. Home
-2. TruePlay AI
+2. Metabuffed
 3. GACA (Gaming Integrity Authority)
 4. About
 5. Contact
@@ -22,7 +22,7 @@ Igraverse logo
 
 Right side navigation:
 Home
-TruePlay AI
+Metabuffed
 GACA
 About
 Contact
@@ -33,7 +33,7 @@ Footer (present on every page)
 
 Include:
 Igraverse logo
-Quick navigation links (Home, TruePlay AI, GACA, About, Contact)
+Quick navigation links (Home, Metabuffed, GACA, About, Contact)
 Contact email: [support@igraverse.com](mailto:support@igraverse.com)
 Copyright text
 
@@ -63,7 +63,7 @@ Below the hero section show three platform pillars:
 1. Game Generation
    Description explaining that users can create playable games using prompts and templates.
 
-2. TruePlay AI
+2. Metabuffed
    Description explaining that the system analyzes player behavior and creates AI playstyles players can train against.
 
 3. GACA
@@ -71,7 +71,7 @@ Below the hero section show three platform pillars:
 
 Each pillar should be displayed as a card with a short explanation and a link to its page.
 
-Page 2 — TruePlay AI
+Page 2 — Metabuffed
 
 Explain the AI system that analyzes player behavior.
 

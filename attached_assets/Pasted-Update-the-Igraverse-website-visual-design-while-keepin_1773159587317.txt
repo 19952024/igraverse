@@ -1,4 +1,4 @@
-Update the Igraverse website visual design while keeping the exact existing pages and navigation: Home, TruePlay AI, GACA, About, Contact.
+Update the Igraverse website visual design while keeping the exact existing pages and navigation: Home, Metabuffed, GACA, About, Contact.
 
 Important rules:
 Do not add new pages.
@@ -47,11 +47,11 @@ Remove the homepage grid background.
 
 Replace it with a deep blue-green atmospheric gradient and subtle particle motion so the homepage feels more alive and cinematic.
 
-TruePlay AI Page
+Metabuffed Page
 
-The TruePlay AI page should visually communicate that the system acts like an intelligent “Player 2” observing gameplay behavior.
+The Metabuffed page should visually communicate that the system acts like an intelligent “Player 2” observing gameplay behavior.
 
-At the top of the TruePlay AI page, under the hero title, add a cinematic video or animation.
+At the top of the Metabuffed page, under the hero title, add a cinematic video or animation.
 
 The animation should visually suggest:
 

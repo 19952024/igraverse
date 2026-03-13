@@ -27,7 +27,7 @@ export default function TruePlay() {
               <span className="text-gradient glow-text-secondary">TruePlay</span> AI
             </h1>
             <p className="text-xl text-foreground leading-relaxed mb-6 font-medium">
-              TruePlay AI acts like an intelligent Player 2 connected to your system.
+              Metabuffed acts like an intelligent Player 2 connected to your system.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
               By observing controller inputs, gameplay decisions, and behavioral patterns, the system learns how players think and compete. The AI can then recreate authentic playstyles, simulate matches, and analyze strategies across thousands of games.
@@ -43,7 +43,7 @@ export default function TruePlay() {
              <div className="absolute inset-0 bg-secondary/20 blur-[80px] rounded-full max-w-[200px] mx-auto"></div>
              <img 
                src={trueplayDongle} 
-               alt="TruePlay AI Device" 
+               alt="Metabuffed Device" 
                className="w-full max-w-[280px] md:max-w-sm relative z-10 animate-float drop-shadow-[0_15px_35px_rgba(0,212,255,0.4)] object-contain" 
              />
           </div>

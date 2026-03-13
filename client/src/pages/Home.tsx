@@ -149,10 +149,10 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-br from-secondary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             <CardContent className="p-6 flex flex-col gap-4 h-full relative z-10 text-center items-center">
               <div className="w-16 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-500 drop-shadow-[0_0_15px_rgba(0,212,255,0.5)]">
-                 <img src={iconAi} alt="TruePlay AI" className="w-full h-full object-contain" />
+                 <img src={iconAi} alt="Metabuffed" className="w-full h-full object-contain" />
               </div>
               <div>
-                <h3 className="text-xl font-display font-bold mb-2 text-secondary group-hover:text-secondary transition-colors tracking-widest uppercase">TruePlay AI</h3>
+                <h3 className="text-xl font-display font-bold mb-2 text-secondary group-hover:text-secondary transition-colors tracking-widest uppercase">Metabuffed</h3>
                 <p className="text-muted-foreground/80 text-sm leading-relaxed">
                   Our proprietary neural network analyzes behavior to create intelligent AI playstyles. Train against specific patterns or immortalize your own style.
                 </p>

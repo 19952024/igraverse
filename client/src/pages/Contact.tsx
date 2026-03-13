@@ -37,7 +37,7 @@ export default function Contact() {
               Get in <span className="text-primary">Touch</span>
             </h1>
             <p className="text-lg text-muted-foreground">
-              Interested in integrating TruePlay AI, securing your game with GACA, or exploring our generation platform? We'd love to hear from you.
+              Interested in integrating Metabuffed, securing your game with GACA, or exploring our generation platform? We'd love to hear from you.
             </p>
           </div>
 

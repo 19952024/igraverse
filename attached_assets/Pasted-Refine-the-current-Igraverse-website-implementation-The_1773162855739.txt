@@ -47,23 +47,23 @@ are overlapping the next section visually.
 
 Add proper spacing so the prompts sit cleanly below the input box without overlapping any other elements.
 
-TRUEPLAY AI PAGE RESTRUCTURE
+Metabuffed PAGE RESTRUCTURE
 
-The TruePlay AI page currently feels too empty and lacks a clear visual anchor.
+The Metabuffed page currently feels too empty and lacks a clear visual anchor.
 
 Update the hero section layout to a two-column structure.
 
 Left side:
-Keep the TruePlay AI title and description text.
+Keep the Metabuffed title and description text.
 
 Right side:
-Display an elegant product visual of the TruePlay AI dongle device.
+Display an elegant product visual of the Metabuffed dongle device.
 
 The dongle should appear as a polished product image with soft lighting, floating slightly above the background.
 
 Under the title include a short product-style explanation:
 
-TruePlay AI acts like an intelligent Player 2 connected to your system.
+Metabuffed acts like an intelligent Player 2 connected to your system.
 
 By observing controller inputs, gameplay decisions, and behavioral patterns, the system learns how players think and compete.
 

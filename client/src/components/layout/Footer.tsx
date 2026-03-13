@@ -26,7 +26,7 @@ export default function Footer() {
             <h3 className="font-display font-semibold mb-6 text-foreground text-base">System</h3>
             <ul className="space-y-4">
               <li><Link href="/"><span className="text-muted-foreground hover:text-primary hover:glow-text transition-all cursor-pointer block">Home</span></Link></li>
-              <li><Link href="/trueplay-ai"><span className="text-muted-foreground hover:text-secondary hover:glow-text-secondary transition-all cursor-pointer block">TruePlay AI</span></Link></li>
+              <li><Link href="/trueplay-ai"><span className="text-muted-foreground hover:text-secondary hover:glow-text-secondary transition-all cursor-pointer block">Metabuffed</span></Link></li>
               <li><Link href="/gaca"><span className="text-muted-foreground hover:text-primary hover:glow-text transition-all cursor-pointer block">GACA</span></Link></li>
               <li><Link href="/about"><span className="text-muted-foreground hover:text-primary hover:glow-text transition-all cursor-pointer block">About</span></Link></li>
             </ul>
