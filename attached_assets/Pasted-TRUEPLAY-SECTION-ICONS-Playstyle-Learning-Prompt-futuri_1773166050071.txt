@@ -1,0 +1,107 @@
+TRUEPLAY SECTION ICONS
+Playstyle Learning
+
+Prompt:
+
+futuristic neon outline icon showing a game controller with flowing motion paths and neural nodes analyzing movement patterns, symbolizing AI learning player behavior and decision timing, glowing teal and cyan lines, minimal vector design, gaming AI aesthetic, soft glow, dark UI dashboard style
+
+Why this works
+It visually communicates AI studying gameplay behavior.
+
+Style Replication
+
+Prompt:
+
+futuristic neon outline icon showing two mirrored gamer silhouettes or controllers connected by neural lines, symbolizing AI replicating a player’s exact playstyle, glowing teal and cyan vector lines, minimal gaming AI icon, modern UI dashboard aesthetic, glassmorphism style
+
+Why this works
+Represents copying player style instead of generic targets.
+
+Meta Detection
+
+Prompt:
+
+futuristic neon outline icon showing a network strategy map with interconnected nodes and tactical arrows, representing AI detecting evolving competitive gaming strategies and meta patterns, glowing teal and cyan lines, minimal vector gaming analytics icon, soft glow UI style
+
+Why this works
+Represents strategy analysis across many matches.
+
+Match Simulation
+
+Prompt:
+
+futuristic neon outline icon showing two game controllers facing each other connected by neural lines and simulation nodes, representing AI simulated matches between playstyles, glowing teal cyan gradient lines, minimal vector gaming AI icon, modern dashboard aesthetic
+
+Why this works
+Shows AI vs AI simulation visually.
+
+HOME PAGE FEATURE ICONS
+Game Generation
+
+Prompt:
+
+futuristic neon outline icon of a game controller emerging from digital code blocks or pixels forming a game world, representing AI generating playable games from prompts, glowing teal cyan vector lines, minimal gaming creation icon, modern AI developer platform style
+
+TruePlay AI
+
+Prompt:
+
+futuristic neon outline icon of a neural brain integrated with a game controller circuit, symbolizing AI intelligence analyzing gameplay behavior and player decisions, glowing teal cyan gradient lines, minimal gaming AI icon, modern tech dashboard aesthetic
+
+GACA
+
+Prompt:
+
+futuristic neon outline icon of a shield protecting a game controller and network nodes, symbolizing competitive gaming integrity and anti-cheat infrastructure, glowing teal cyan lines, minimal vector cybersecurity gaming icon, modern developer platform style
+
+GACA INFRASTRUCTURE STEPS
+API Keys
+
+Prompt:
+
+futuristic neon outline icon of a digital key unlocking a network node, representing secure API authentication for gaming infrastructure, glowing teal cyan vector lines, minimal developer platform icon, dark dashboard UI style
+
+Add SDK
+
+Prompt:
+
+futuristic neon outline icon showing modular code blocks connecting together, representing installing a software SDK module, glowing teal cyan gradient lines, minimal developer tools icon, modern platform UI aesthetic
+
+Connect Nodes
+
+Prompt:
+
+futuristic neon outline icon of interconnected network nodes forming a gaming server cluster, symbolizing connecting multiplayer infrastructure endpoints, glowing teal cyan vector lines, minimal gaming backend icon
+
+Deploy
+
+Prompt:
+
+futuristic neon outline icon of a rocket launching from a server platform, symbolizing deploying gaming infrastructure live, glowing teal cyan gradient lines, minimal developer platform icon, modern dashboard style
+
+PRESERVATION / ANTI-CHEAT FEATURES
+Preservation Core
+
+Prompt:
+
+futuristic neon outline icon of a shield protecting two connected game controllers, representing protection of match outcomes and fair gameplay results, glowing teal cyan vector lines, minimal competitive gaming integrity icon
+
+Lag Sentinel
+
+Prompt:
+
+futuristic neon outline icon of a network signal waveform surrounded by monitoring nodes, representing detection of abnormal latency and lag manipulation in online games, glowing teal cyan lines, minimal vector gaming network monitoring icon
+
+Controller Integrity
+
+Prompt:
+
+futuristic neon outline icon of a game controller with a security shield and circuit lines, representing detection of macros and scripted controller inputs, glowing teal cyan vector lines, minimal gaming security icon
+
+One extra instruction you should give Base44
+
+Add this to the end:
+
+icons must be consistent in stroke width, glow intensity, and color palette so they appear as part of a unified gaming AI platform icon set
+
+That will keep the icons cohesive across the whole site.

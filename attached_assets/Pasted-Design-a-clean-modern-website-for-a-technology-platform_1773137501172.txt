@@ -1,0 +1,146 @@
+Design a clean, modern website for a technology platform called **Igraverse**.
+
+The visual style should feel like an advanced gaming / AI platform similar to modern game-creation platforms, but with a unique futuristic identity. The site should use a dark theme with subtle glow accents and a high-end technology feel.
+
+IMPORTANT:
+Do not add extra sections or pages beyond what is listed below.
+
+Site Structure (Pages)
+
+1. Home
+2. TruePlay AI
+3. GACA (Gaming Integrity Authority)
+4. About
+5. Contact
+
+Global Layout Requirements
+
+Header (fixed at top of site)
+
+Left side:
+Igraverse logo
+
+Right side navigation:
+Home
+TruePlay AI
+GACA
+About
+Contact
+
+The header should remain visible while scrolling.
+
+Footer (present on every page)
+
+Include:
+Igraverse logo
+Quick navigation links (Home, TruePlay AI, GACA, About, Contact)
+Contact email: [support@igraverse.com](mailto:support@igraverse.com)
+Copyright text
+
+The footer should be clean, minimal, and consistent across the site.
+
+Page 1 — Home (Main Feature)
+
+This page represents the **AI Game Generation Platform**, which is the main attraction.
+
+The design should feel like a creative platform where users can generate games.
+
+Top hero section:
+
+Headline:
+Create Games with AI
+
+Subtext:
+Generate retro-style games instantly using prompts.
+
+Include a visual mockup of a game generation interface showing:
+Prompt input field
+Generate Game button
+Example game preview panels
+
+Below the hero section show three platform pillars:
+
+1. Game Generation
+   Description explaining that users can create playable games using prompts and templates.
+
+2. TruePlay AI
+   Description explaining that the system analyzes player behavior and creates AI playstyles players can train against.
+
+3. GACA
+   Description explaining that the platform provides a competitive integrity infrastructure for games.
+
+Each pillar should be displayed as a card with a short explanation and a link to its page.
+
+Page 2 — TruePlay AI
+
+Explain the AI system that analyzes player behavior.
+
+Sections:
+
+Playstyle Learning
+Explain how gameplay patterns are analyzed.
+
+Style Replication
+Explain how the AI recreates player styles.
+
+Meta Detection
+Explain how the system detects evolving strategies.
+
+Match Simulation
+Explain how different playstyles can be simulated against each other.
+
+Include simple visual diagrams to show how the system works.
+
+Page 3 — GACA (Gaming Integrity Authority)
+
+This page explains the competitive integrity infrastructure.
+
+Sections:
+
+Preservation Core
+Prevents match result manipulation through disconnect abuse.
+
+Lag Sentinel
+Detects abnormal network behavior and artificial latency.
+
+Controller Integrity
+Detects macro inputs and automation devices.
+
+Environment Integrity
+Detects unauthorized software or cheat tools.
+
+Include a section titled:
+
+Start Here: How Your Studio Gets Access
+
+Steps:
+
+1. Request Access
+2. Get API Credentials
+3. Test in Sandbox
+4. Deploy to Production
+
+Page 4 — About
+
+Explain the mission of Igraverse as a platform combining game creation, AI playstyle modeling, and competitive integrity systems.
+
+Keep the design simple and professional.
+
+Page 5 — Contact
+
+Simple contact page with:
+
+Email contact: [support@igraverse.com](mailto:support@igraverse.com)
+Contact form (name, email, message)
+
+Design Requirements
+
+Use a dark theme with modern UI elements.
+
+Use subtle glow accents to create a futuristic feel.
+
+Use rounded cards and clean typography.
+
+Avoid clutter and keep the interface user-friendly.
+
+The site should feel like a high-end gaming technology platform.

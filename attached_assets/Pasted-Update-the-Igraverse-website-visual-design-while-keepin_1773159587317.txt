@@ -1,0 +1,175 @@
+Update the Igraverse website visual design while keeping the exact existing pages and navigation: Home, TruePlay AI, GACA, About, Contact.
+
+Important rules:
+Do not add new pages.
+Do not change the homepage layout.
+Do not redesign the homepage structure.
+Only improve atmosphere, gradients, and section identity.
+
+Global Visual Direction
+
+The entire site should feel like a powerful futuristic AI platform connected to the global gaming ecosystem.
+
+Use a unified gradient atmosphere across the site built around:
+
+deep ocean blue
+emerald / deep green
+subtle cosmic lighting
+
+The gradient should feel artistic and immersive, similar to viewing Earth from space mixed with futuristic AI infrastructure.
+
+Remove the visible grid background across the site.
+
+Replace it with layered atmospheric depth using:
+
+soft floating particles
+subtle network lines
+light beams
+digital glow
+
+Sections should appear as semi-transparent glass panels floating above the gradient background with blur and soft glow edges.
+
+The experience should feel cinematic, immersive, and premium but not visually busy.
+
+Homepage
+
+Keep the homepage layout exactly as it currently is.
+
+Do not change the structure.
+
+Only improve:
+gradient atmosphere
+visual depth
+lighting
+background layers
+
+Remove the homepage grid background.
+
+Replace it with a deep blue-green atmospheric gradient and subtle particle motion so the homepage feels more alive and cinematic.
+
+TruePlay AI Page
+
+The TruePlay AI page should visually communicate that the system acts like an intelligent “Player 2” observing gameplay behavior.
+
+At the top of the TruePlay AI page, under the hero title, add a cinematic video or animation.
+
+The animation should visually suggest:
+
+AI analyzing gameplay patterns
+behavior tracking
+player movement analysis
+decision modeling
+
+Use background visuals such as:
+
+neural network nodes
+flowing data lines
+AI system diagrams
+
+The page should feel like a living behavioral intelligence system studying gameplay.
+
+GACA Page
+
+The GACA page represents the Gaming Anti-Cheating Authority and should feel like a global authority protecting competitive gaming.
+
+The visual tone should feel powerful, official, and prestigious — like an international organization responsible for maintaining integrity in gaming.
+
+Keep the same deep blue and emerald gradient atmosphere used across the site, but make the GACA page feel stronger and more authoritative.
+
+Background atmosphere should include:
+
+subtle global network connections
+glowing digital nodes
+secure system connections
+soft animated data lines
+
+The environment should feel like a worldwide digital security network.
+
+Do not use a large static image background.
+
+The authority feeling should come from gradients, lighting, and network visuals.
+
+GACA Hero Area
+
+At the top of the GACA page display the title:
+
+Gaming Anti-Cheating Authority (GACA)
+
+Directly below the title leave a dedicated space where the GACA logo can be placed so it becomes a focal point of the page.
+
+The hero section should feel prestigious and powerful.
+
+GACA Description
+
+Use the following description text:
+
+The Gaming Anti-Cheating Authority (GACA) is the integrity infrastructure that protects competitive gaming environments from manipulation, automation abuse, and unfair gameplay advantages.
+
+GACA continuously monitors behavioral patterns, controller inputs, and network anomalies to detect and prevent unfair advantages before they affect the outcome of a match.
+
+The system operates silently in the background, acting as a global integrity layer for competitive games and tournaments.
+
+By combining behavioral modeling, pattern recognition, and real-time detection systems, GACA ensures that every match remains fair, authentic, and competitive.
+
+GACA Systems
+
+Below the description display the three core systems as connected modules inside a network visualization.
+
+Modules:
+
+Preservation Core
+Protects match outcomes by detecting disconnect manipulation and preserving fair results.
+
+Lag Sentinel
+Detects abnormal network latency patterns and possible lag manipulation.
+
+Controller Integrity
+Detects macro behavior, turbo inputs, and scripted controller patterns that provide unfair advantages.
+
+These modules should appear as glowing nodes connected by subtle animated lines representing a digital integrity infrastructure.
+
+The design should feel like a global monitoring system protecting competitive matches.
+
+Keep the “Start Here: How Your Studio Gets Access” section but integrate it visually into the page so it feels like part of the infrastructure system rather than a separate box.
+
+About Page
+
+The About page currently feels too plain.
+
+Remove the background grid.
+
+Use the same atmospheric gradient and subtle particle background used across the rest of the site.
+
+Place the About text inside a centered glass panel with blur and soft glow edges.
+
+Make typography slightly larger and more refined so the mission feels important and inspiring.
+
+The About page should communicate that Igraverse is building the future of:
+
+game creation
+behavioral AI
+competitive integrity
+
+Footer
+
+Keep the footer minimal but integrated into the site atmosphere.
+
+Include:
+
+logo
+navigation links
+support email
+
+Use subtle lighting behind the footer so it blends with the gradient background.
+
+Final Goal
+
+The entire site should feel like a world-class AI gaming platform.
+
+Visitors should feel like they are inside a digital universe where:
+
+games are generated
+player behavior is analyzed
+competitive integrity is protected
+
+The site should feel cinematic, futuristic, and premium while remaining clean and easy to navigate.

@@ -1,0 +1,96 @@
+Refine the Membership / Pricing section while keeping the current layout structure. The goal is to make the pricing cards cleaner, balanced, and visually consistent.
+
+1. Card Titles
+
+Update the titles so they are consistent and clear.
+
+Free
+Game Creation
+GACA
+
+Under the GACA title add a small subtitle that says:
+
+Gaming Anti Cheating Authority
+
+Remove the word “Plans”.
+
+2. Button Labels
+
+Update the buttons so they match the correct actions.
+
+Free card → "Get Started"
+Game Creation card → "Subscribe"
+GACA card → "Choose Plan"
+
+All buttons should use the same gradient color and glow style so they match visually.
+
+3. Button Alignment
+
+Ensure all three cards have their buttons aligned at the exact same vertical position.
+
+The feature areas of each card should have equal height so the buttons line up perfectly.
+
+4. Equal Card Spacing
+
+All three cards must have identical spacing between them.
+
+Each card must be the same width and height.
+
+The distance between Free, Game Creation, and GACA cards must be perfectly even.
+
+5. Featured Plan Highlight
+
+Make the Game Creation ($5/month) card the featured plan.
+
+Add subtle emphasis by:
+slightly brighter border glow
+slightly stronger lighting
+raise the card slightly (about 10–15px higher than the other cards)
+
+This makes it clear that Game Creation is the main subscription.
+
+6. Featured Tag
+
+Add a small pill label above the Game Creation card that says:
+
+Most Popular
+
+The label should use a soft glow that matches the site colors.
+
+7. Card Hover Effect
+
+Add a subtle hover animation to all cards:
+card lifts slightly
+glow increases slightly
+shadow deepens slightly
+
+The animation should feel smooth and modern.
+
+8. GACA Plan Layout
+
+Inside the GACA card display the plans as clean stacked rows with two aligned columns (plan name on the left, price on the right).
+
+Do NOT use dash symbols or separators.
+
+Display them like this visually:
+
+Developer $29/month
+Studio $149/month
+Tournament $499/month
+
+Each row should have:
+rounded corners
+consistent padding
+equal spacing between rows
+subtle border or glow
+
+9. Final Goal
+
+The pricing section should look like a modern premium SaaS pricing page.
+
+Clean
+balanced
+professional
+futuristic
+
+Game Creation should stand out as the main plan while all three cards remain visually consistent.

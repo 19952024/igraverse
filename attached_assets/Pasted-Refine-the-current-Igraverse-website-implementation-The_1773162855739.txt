@@ -1,0 +1,103 @@
+Refine the current Igraverse website implementation. The overall design direction is good, but several layout and visual issues must be corrected for a more polished and professional appearance.
+
+GLOBAL FIXES
+
+Remove the faint white AI grid lines that appear across sections of the site. These lines make the interface look cluttered and distract from the gradient atmosphere.
+
+The site should instead rely on:
+soft gradient lighting
+subtle particles
+ambient glow effects
+
+No grid overlays should be visible anywhere.
+
+The global background should remain a deep blue / emerald gradient with cinematic lighting and depth.
+
+HEADER SPACING FIX
+
+Currently there is empty vertical space between the header navigation and the page content.
+
+Reduce this spacing so the hero section begins closer to the header.
+
+The layout should feel tight and intentional like a modern tech product site.
+
+HOMEPAGE TEXT FIX
+
+Change the hero headline from:
+
+"Create Worlds with AI"
+
+to:
+
+"Create Games with AI"
+
+Keep the same font style and animation.
+
+HOMEPAGE PROMPT BOX POSITION
+
+Move the prompt input box slightly higher so it sits closer under the headline.
+
+Currently the suggested prompts such as:
+
+Create a retro ninja platformer in a bamboo forest
+Build a pixel zombie survival shooter
+Generate a futuristic boxing arena
+
+are overlapping the next section visually.
+
+Add proper spacing so the prompts sit cleanly below the input box without overlapping any other elements.
+
+TRUEPLAY AI PAGE RESTRUCTURE
+
+The TruePlay AI page currently feels too empty and lacks a clear visual anchor.
+
+Update the hero section layout to a two-column structure.
+
+Left side:
+Keep the TruePlay AI title and description text.
+
+Right side:
+Display an elegant product visual of the TruePlay AI dongle device.
+
+The dongle should appear as a polished product image with soft lighting, floating slightly above the background.
+
+Under the title include a short product-style explanation:
+
+TruePlay AI acts like an intelligent Player 2 connected to your system.
+
+By observing controller inputs, gameplay decisions, and behavioral patterns, the system learns how players think and compete.
+
+The AI can then recreate authentic playstyles, simulate matches, and analyze strategies across thousands of games.
+
+This transforms raw gameplay behavior into trainable AI opponents and competitive insight.
+
+Make this section feel like a premium product introduction rather than a text block.
+
+TRUEPLAY VISUAL BALANCE
+
+Reduce excessive empty space on the TruePlay page.
+
+The layout should feel balanced with:
+
+text on the left
+dongle visualization on the right
+behavioral AI animation subtly behind
+
+Do not let sections feel visually empty.
+
+FOOTER SPACING
+
+Tighten the vertical spacing above the footer so the page endings feel intentional rather than stretched.
+
+FINAL DESIGN GOAL
+
+The site should feel like a premium AI gaming platform.
+
+Clean
+focused
+cinematic
+high-end technology presentation
+
+Avoid clutter, unnecessary overlays, or grid patterns.
+
+The gradient environment and lighting should carry the atmosphere.

@@ -1,0 +1,105 @@
+Upgrade the visual design of the Igraverse website while keeping the existing page structure (Home, TruePlay AI, GACA, About, Contact).
+
+Goal: The platform should feel like a premium AI world-creation system, not a standard SaaS website. The design should communicate scale, creativity, and futuristic technology.
+
+Overall Visual Style
+
+Use a dark futuristic theme with:
+
+soft glowing gradients
+subtle particle motion
+neural network style lines
+cosmic / universe inspired backgrounds
+layered lighting depth
+
+Avoid flat sections. Each section should feel immersive and slightly animated.
+
+Hero Section (Homepage)
+
+Replace static visuals with a looping cinematic animation or video that represents AI generating game worlds.
+
+The animation should visually progress through:
+
+retro pixel / Nintendo-style generation
+PS1-style low poly world forming
+more advanced modern environments beginning to appear
+
+Hero text:
+
+Create Games with AI
+
+Subtext:
+
+From retro worlds to next-generation experiences.
+
+Include the prompt input box in the hero section.
+
+Below the prompt add example prompts users can click:
+
+Create a retro ninja platformer in a bamboo forest
+Build a pixel zombie survival shooter
+Generate a futuristic boxing arena
+
+Platform Pillars
+
+Keep the three core platform cards:
+
+Game Generation
+TruePlay AI
+GACA
+
+Enhance these cards visually with glow edges, futuristic icons, and subtle hover animations so they feel like modules of a larger AI system.
+
+Generated Games Section
+
+Add a section below the hero titled:
+
+Explore Generated Games
+
+Display a grid of example generated games.
+
+Each game card should include:
+
+preview image
+game title
+genre tag
+Play button
+Remix button
+
+These can be example previews for now.
+
+This section is important because it shows visitors what the platform creates.
+
+Live Activity Section
+
+Add a section titled:
+
+Platform Activity
+
+Show example real-time activity messages such as:
+
+User generated “Pixel Zombie Arena”
+Remixed “Retro Space Shooter”
+Created “Dungeon Platformer”
+
+Display them like a live feed or activity stream.
+
+This makes the platform feel active and alive.
+
+TruePlay AI Page
+
+Design the page with neural network visuals such as connected nodes, flowing data lines, and subtle AI system diagrams to represent behavior modeling and player intelligence.
+
+GACA Page
+
+The design should feel like enterprise infrastructure using grid networks, system layers, and secure node visuals.
+
+Keep the “Start Here: How Your Studio Gets Access” four-step process clearly displayed.
+
+Footer
+
+Keep the footer simple with logo, navigation links, and contact email while maintaining the cosmic visual style.
+
+Final Goal
+
+The entire site should feel like a futuristic AI platform that generates entire digital worlds. The experience should feel powerful, immersive, and premium while remaining clean and easy to navigate.
