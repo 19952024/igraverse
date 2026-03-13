@@ -9,7 +9,7 @@ import { useAuth } from "@/context/AuthContext";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/trueplay-ai", label: "Metabuffed" },
+  { href: "/metabuffed", label: "Metabuffed" },
   { href: "/gaca", label: "GACA" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },

@@ -24,7 +24,7 @@ function Router() {
     <Layout>
       <Switch>
         <Route path="/" component={Home} />
-        <Route path="/trueplay-ai" component={TruePlay} />
+        <Route path="/metabuffed" component={TruePlay} />
         <Route path="/gaca" component={Gaca} />
         <Route path="/gaca/preservation-core" component={PreservationCore} />
         <Route path="/gaca/lag-sentinel" component={LagSentinel} />
